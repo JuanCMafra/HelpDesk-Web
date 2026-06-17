@@ -1,8 +1,7 @@
-import type { UserRole } from "../../dtos/user";
 import { classMerge } from "../../utils/classMerge";
 
 type Props = React.ComponentProps<"div"> & {
-  role: UserRole;
+  role: UserAPIRole;
   type: keyof typeof tablesHeaders.admin;
 };
 
