@@ -1,20 +1,20 @@
-import { Button } from "../components/UI/Button";
-import { Status } from "../components/UI/Status";
+import { Button } from "../../components/UI/Button";
+import { Status } from "../../components/UI/Status";
 import pencilIcon from "../assets/icons/pencil.svg";
 import ClosedIcon from "../assets/icons/close.svg?react";
 import ProgressIcon from "../assets/icons/in_progress.svg?react";
-import { formatCurrency } from "../utils/formatCurrency";
-import { Profile } from "../components/Profile";
+import { formatCurrency } from "../../utils/formatCurrency";
+import { Profile } from "../../components/Profile";
 import { useEffect, useState } from "react";
-import type { FormState } from "../utils/formState";
-import { api } from "../services/api";
-import { handleFormError } from "../utils/handleFormError";
-import { AlertMessage } from "../components/AlertMessage";
+import type { FormState } from "../../utils/formState";
+import { api } from "../../services/api";
+import { handleFormError } from "../../utils/handleFormError";
+import { AlertMessage } from "../../components/AlertMessage";
 import {
   closeTicket,
   openTicket,
   startTicket,
-} from "../utils/changeTicketStatus";
+} from "../../utils/changeTicketStatus";
 import { useNavigate } from "react-router";
 
 export function TechnicianDashboard() {

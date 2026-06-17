@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router";
 import { NotFound } from "../pages/NotFound";
 import { AppLayout } from "../components/AppLayout";
-import { TechnicianDashboard } from "../pages/TechnicianDashboard";
+import { TechnicianDashboard } from "../pages/TechnicianPages/TechnicianDashboard";
 import { ShowTicket } from "../components/ShowTicket";
 
 export function TechnicianRoutes() {
