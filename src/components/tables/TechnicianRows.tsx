@@ -26,7 +26,7 @@ export const TECHNICIAN_ROWS_CONFIG = {
               name={technician.name}
               className="min-w-7 font-medium"
             />
-            <span>{technician.name}</span>
+            <span className="truncate">{technician.name}</span>
           </div>
         ),
       },
