@@ -1,0 +1,82 @@
+@import "tailwindcss";
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+@theme {
+  --default-font-family: "Lato", sans-serif;
+  --default-line-height: 140%;
+
+  --color-blue-dark: #2E3DA3;
+  --color-blue-base: #5165E1;
+  --color-blue-light: #8996EB;
+
+  --color-gray-100: #151619;
+  --color-gray-200: #1E2024;
+  --color-gray-300: #535964;
+  --color-gray-400: #858B99;
+  --color-gray-500: #E3E5E8;
+  --color-gray-600: #F9FAFA;
+
+  --color-feedback-danger: #D03E3E;
+  --color-feedback-open: #CC3D6A;
+  --color-feedback-progress: #355EC5;
+  --color-feedback-done: #508B26;
+
+  --text-xl: 24px;
+  --text-xl--line-height: 140%;
+  --text-xl--font-weight: 700;
+
+  --text-lg: 20px;
+  --text-lg--line-height: 140%;
+  --text-lg--font-weight: 700;
+
+  --text-md: 16px;
+  --text-md--line-height: 140%;
+
+  --text-sm: 14px;
+  --text-sm--line-height: 140%;
+
+  --text-xs: 12px;
+  --text-xs--line-height: 140%;
+
+  --text-xxs: 10px;
+  --text-xxs--line-height: 140%;
+  --text-xxs--font-weight: 700;
+
+}
+
+@layer base {
+  body {
+    font-family: "Lato", sans-serif;
+    line-height: 1.4;
+  }
+}
+
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+
+.bg-image {
+  background: url(../src/assets/Login_Background.png) top/cover no-repeat;
+}
+
+select {
+  appearance: none;
+  background-image: url(../src/assets/icons/arrow-down.svg);
+  background-repeat: no-repeat;
+  background-position: right 0 top 50%;
+  background-size: 1.25rem auto;
+}
