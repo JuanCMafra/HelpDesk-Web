@@ -1,7 +1,7 @@
 import { Table } from "../../components/tables/Table";
 import { TechnicianRows } from "../../components/tables/TechnicianRows";
 import { Button } from "../../components/UI/Button";
-import AddIcon from "../assets/icons/add.svg?react";
+import AddIcon from "../../assets/icons/add.svg?react";
 import { useEffect, useState } from "react";
 import type { FormState } from "../../utils/formState";
 import { useAuth } from "../../hooks/useAuth";

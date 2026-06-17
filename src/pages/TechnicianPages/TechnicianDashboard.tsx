@@ -1,8 +1,8 @@
 import { Button } from "../../components/UI/Button";
 import { Status } from "../../components/UI/Status";
-import pencilIcon from "../assets/icons/pencil.svg";
-import ClosedIcon from "../assets/icons/close.svg?react";
-import ProgressIcon from "../assets/icons/in_progress.svg?react";
+import pencilIcon from "../../assets/icons/pencil.svg";
+import ClosedIcon from "../../assets/icons/close.svg?react";
+import ProgressIcon from "../../assets/icons/in_progress.svg?react";
 import { formatCurrency } from "../../utils/formatCurrency";
 import { Profile } from "../../components/Profile";
 import { useEffect, useState } from "react";

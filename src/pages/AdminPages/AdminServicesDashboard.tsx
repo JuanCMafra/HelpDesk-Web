@@ -1,6 +1,6 @@
 import { useActionState, useEffect, useState } from "react";
 import { Table } from "../../components/tables/Table";
-import AddIcon from "../assets/icons/add.svg?react";
+import AddIcon from "../../assets/icons/add.svg?react";
 import { Button } from "../../components/UI/Button";
 import { Input } from "../../components/UI/Input";
 import { ServicesRows } from "../../components/tables/ServicesRows";

@@ -2,7 +2,7 @@ import { useActionState, useEffect, useState } from "react";
 import { CustomerRows } from "../../components/tables/CustomerRows";
 import { Table } from "../../components/tables/Table";
 import clsx from "clsx";
-import CloseIcon from "../assets/icons/x.svg?react";
+import CloseIcon from "../../assets/icons/x.svg?react";
 import { Button } from "../../components/UI/Button";
 import { Input } from "../../components/UI/Input";
 import { Profile } from "../../components/Profile";
